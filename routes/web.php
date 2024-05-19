@@ -1,5 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ViewController;
 
-Route::view('/', 'home.index');
+$controller = new ViewController();
+$controller->register();

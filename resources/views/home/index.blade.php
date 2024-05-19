@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <h1>
-        Hello World!
-    </h1>
+    <x-wrapper>
+        <x-posts />
+    </x-wrapper>
 @endsection

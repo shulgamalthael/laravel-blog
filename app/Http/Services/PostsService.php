@@ -6,7 +6,8 @@ use Illuminate\Support\Facades\Request;
 
 class PostsService
 {
-    public function getPostsList(Request $request) {
+    public function getPostsList(Request $request)
+    {
         return $request;
     }
 }

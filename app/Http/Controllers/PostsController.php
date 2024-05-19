@@ -7,7 +7,8 @@ use Illuminate\Support\Facades\Route;
 
 class PostsController extends Controller
 {
-    public function register() {
+    public function register()
+    {
         Route::get('/', [PostsService::class, 'getPostsList'])->name('getPostsList');
     }
 }
